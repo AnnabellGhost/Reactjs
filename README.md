@@ -7,8 +7,8 @@ a container `<div>` will show text. data passed By json within js file.
 * ###hierarchy.js:
 It's a exercise from React Official Document.
 
-
-
+* ###bubbleEvent.js
+About React SyntheticEvent and nativeEvent usage.
 ***
 *I use webpack-dev-server for testing and I miss some package info in package.jason.The hustle and bustle of my first try.*  
 
