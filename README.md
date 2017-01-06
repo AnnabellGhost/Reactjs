@@ -11,7 +11,14 @@ It's a exercise from React Official Document.
 About React SyntheticEvent and nativeEvent usage.
 
 * ###fold_comp
-Decorate this component with CSSModules,practice of a single CSS module per ReactElement deature.
+Practice of CSSModules.This component's CSS style won't pollute the public.
+
+* ###ReactProject
+It is well-organized,including 'add' 'edit' 'delete' and 'serch'(not finished by now) which are the main logic.(I learn Java ,Database back in school,so...i guess old habits never die...).
+You can clone that folder to your PC and run  `npm install` -> `webpack`
+->`webpack-dev-server` then open your browser at 
+`localhost:8080/webpack-dev-server/`
+keywords:react-router react-bootstrap middleware...
 
 ***
 *I use webpack-dev-server for testing and package info is not precise.Hustle and bustle of my first try.*  
