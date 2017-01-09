@@ -14,7 +14,7 @@ About React SyntheticEvent and nativeEvent usage.
 Practice of CSSModules.This component's CSS style won't pollute the public.
 
 * ###ReactProject
-It is well-organized,including 'add' 'edit' 'delete' and 'serch'(not finished by now) which are the main logic.(I learn Java ,Database back in school,so...i guess old habits never die...).
+It is well-organized,including 'add' 'edit' 'delete' (not finished by now) which are the main logic.(I learn Java ,Database back in school,so...i guess old habits never die...).
 You can clone that folder to your PC and run  `npm install` -> `webpack`
 ->`webpack-dev-server` then open your browser at 
 `localhost:8080/webpack-dev-server/`
