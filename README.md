@@ -18,7 +18,11 @@ It is well-organized,including 'add' 'edit' 'delete' and 'serch'(not finished by
 You can clone that folder to your PC and run  `npm install` -> `webpack`
 ->`webpack-dev-server` then open your browser at 
 `localhost:8080/webpack-dev-server/`
-keywords:react-router react-bootstrap middleware...
+keywords:redux react-router react-bootstrap middleware...
+
+* ###isomorphic-practice
+correcting some of the path,this version runs perfectly.
+
 
 ***
 *I use webpack-dev-server for testing and package info is not precise.Hustle and bustle of my first try.*  
