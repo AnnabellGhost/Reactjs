@@ -12,6 +12,7 @@ About React SyntheticEvent and nativeEvent usage.
 
 * ###fold_comp
 Practice of CSSModules.This component's CSS style won't pollute the public.
+Self-contained components.
 
 * ###ReactProject
 It is well-organized,including 'add' 'edit' 'delete' (not finished by now) which are the main logic.(I learn Java ,Database back in school,so...i guess old habits never die...).
