@@ -1,0 +1,42 @@
+{   
+    "resultCode": "1000",
+    "resultMsg": "请求成功",
+    "incomeTpls":[
+      {
+        "tplId":1002,
+        "name":"存工资",
+        "desc":"省时省力",
+        "iconPath":"/pages/PlanTypes/images/icon.png",
+        "serviceType":"001"
+      }
+    ],
+    "expandTpls":[
+      {
+        "tplId":2002,
+        "name":"照顾老婆",
+        "desc":"人生挚爱",
+        "iconPath":"/pages/PlanTypes/images/icon.png",
+        "serviceType":"004"
+      },
+      {
+        "tplId":2003,
+        "name":"我的姑娘啊",
+        "desc":"我养你一辈子下辈子下下辈子（转出）",
+        "iconPath":"/pages/PlanTypes/images/icon.png",
+        "serviceType":"004"
+      },
+      {
+        "tplId":2004,
+        "name":"信用卡还款",
+        "desc":"出来混总是要还的",
+        "iconPath":"/pages/PlanTypes/images/icon.png",
+        "serviceType":"003"
+      },
+      {
+        "tplId":2005,
+        "name":"其他业务（默认是转出吧）",
+        "iconPath":"/pages/PlanTypes/images/icon.png",
+        "serviceType":"004"
+      }
+    ]
+}

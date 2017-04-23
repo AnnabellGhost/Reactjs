@@ -1,0 +1,234 @@
+@import url('../../../../../../common/base/styles/less/common.less');
+@import url('../../../../../../common/base/styles/less/common-font.less');
+body{
+    background: #F0F0F0;
+    font-family: PingFangSC-Regular;
+    margin:0;
+    padding:0;
+}
+/*topFuncBar Begin*/
+.topFuncBarByZxp{
+    margin-bottom: 0.5rem;
+}
+/*topFuncBar End*/
+
+/*index.js Begin*/
+.planView {
+    font-size: 0.4rem;
+    // margin-bottom: 0.88rem;
+}
+.planSet{
+    padding: 0 ;  
+    list-style: none;
+    margin-bottom: 0.88rem;
+}
+.addbutton{
+    padding: 0;
+    display: block;
+    height: 0.88rem;
+    width: 100%;
+    background: #FCFCFC;
+    font-size: 0.26rem;
+    color: #49A6FF;
+    line-height: 0.37rem;
+    background: #FCFCFC;
+    border:0;
+    box-shadow: 0 -1px 1px 0 #CCCCCC;
+    margin-bottom: 0;
+    position: fixed;
+    bottom:0;
+}
+.addbutton .yqbfont_gg_jiahao{
+    font-size: 0.22rem;padding-right: 0.2rem;
+}
+.blankpagebutton {
+    width: 6rem;
+    height: 0.8rem;
+    color: #49A6FF;
+    font-size: .26rem;
+    line-height: .7rem;
+    display: block;
+    margin: 0 auto;
+    background: rgba(73,165,255,0.10);
+    border: 1px solid #49A6FF;
+    border-radius: 8px;
+    margin-top: 0.6rem;
+    position: relative;
+}
+.blankpagebutton .yqbfont_gg_jiahao{
+    font-size: 0.22rem;padding-right: 0.2rem;
+}
+.blankpagebutton:active {
+    background-color: #d1dcf9;
+}
+.blankPlanList{
+    background: #FFFFFF ;
+}
+.blankBg{
+    position: absolute;
+    transform:translateX(-50%);
+    left:50%;
+    padding-top: 3.19rem;
+    width: 3.71rem;height: 3.68rem;
+}
+.blankpageNote{
+    color: #999999 ;
+    font-size: 0.32rem;
+    line-height: 0.45rem;
+    margin:auto;
+    padding-top: 7.17rem;
+    position: relative;
+    text-align: center;
+}
+/*index.js End*/
+
+/*PlanSet Begin*/
+.planSetDate{
+    font-size: 0.24rem;
+    line-height: 0.28rem;
+    padding-bottom: 0.13rem;
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+    padding:0.3rem 0 0.13rem 0.3rem;
+    font-family: DINAlternate-Bold;
+    color:#999999;
+}
+.plans{
+    background: #FFFFFF;    
+    padding-left: 0.3rem;  
+    list-style: none;
+    font-family: PingFangSC-Regular;
+}
+.plans li + li{
+    border-top: 1px solid #EEEEEE;
+}
+/*PlanSet End*/
+
+/*ListItem Begin*/
+.plan{
+    padding: 0 ;
+    padding-right:0.3rem; 
+    position: relative;
+    list-style: none;
+    height:1.2rem;
+    font-size: 0.28rem;
+}
+.icon-wrapper{
+    position: absolute;
+    transform:translateY(-50%);
+    top:50%;
+}
+.icon{
+    width:0.42rem;
+    position: absolute;
+    transform:translateY(-50%);
+    top:50%;
+}
+.plan-left{
+    font-family: PingFangSC-Regular;    
+    float:left;
+    font-size: 0.28rem;
+    line-height: 0.4rem;
+    padding-left: 0.72rem;
+    position: absolute;
+    transform:translateY(-50%);
+    top:50%;
+}
+p.plan-left{
+    width:2.7rem;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.plan-right.oneLineStyle .detail{
+    display:none;
+}
+.plan-right.oneLineStyle .status{
+    display: block;
+	font-size: 0.24rem;
+    color: #F97547;
+    line-height: 1.2rem;
+    text-align: right;
+}
+.plan-right{
+    float:right;
+    font-family: PingFangSC-Regular;
+}
+.detail{
+    margin:0;padding:0;
+    margin-top: 0.24rem;
+	font-size: 0.28rem;
+    line-height: 0.4rem;
+    color: #333333;
+    text-align: right;
+}
+.type{
+    margin-right: 0.09rem; 
+
+}
+.status{
+    display: block;
+	font-size: 0.24rem;
+    color: #F97547;
+    line-height: 0.33rem;
+    text-align: right;
+}
+/*ListItem End*/
+
+/*Loading Begin*/
+.loading-container .loading-component.img-abs-center{
+    width: .96rem;
+    height: .96rem;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: rotation 1s infinite linear;
+    -moz-animation: rotation 1s infinite linear;
+    -o-animation: rotation 1s infinite linear;
+    animation: rotation 1s infinite linear;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.1);
+    border-top-color: #7f7f7f;
+    border-radius: 100%;
+    div{
+        display: none;
+    }
+}
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0)
+    }
+
+    to {
+        -webkit-transform: rotate(359deg)
+    }
+}
+@-moz-keyframes rotation {
+    from {
+        -moz-transform: rotate(0)
+    }
+
+    to {
+        -moz-transform: rotate(359deg)
+    }
+}
+@-o-keyframes rotation {
+    from {
+        -o-transform: rotate(0)
+    }
+
+    to {
+        -o-transform: rotate(359deg)
+    }
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(359deg)
+    }
+}
+/*Loading End*/
+
