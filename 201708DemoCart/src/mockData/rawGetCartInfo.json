@@ -1,0 +1,137 @@
+{
+  "head":{
+    "custString":"1.36",
+    "msgVersion":"3.6.1",
+    "reqAppId":"ios_app_wanlitong",
+    "reqTime":"1491806031392",
+    "rspCode":"0",
+    "rspDescription":"安全验证通过",
+    "rspTime":"1491806093175"
+  },
+  "body":{
+    "compress":false,
+    "dataVersion":"1491806080861",
+    "encrypt":false,
+    "message":"OK",
+    "result":{
+        "cartId":"000",
+        "totalCount":2,/*商品种类总数*/
+        "validItems":[
+            {
+            "sellerMerId":"600000000000",
+            "sellerName":"商户零号", 
+            "isMergePayGroup":"G1",
+            "count":1,/*商家商品种类数量*/
+            "isExistCoupon":"false",/*商家是否存在优惠券可领取？？？？？？*/
+            "cartItemList":[
+                {
+                    "carItemId":"购物车项ID",
+                    "goodsName":"海淘商品零号235.37",
+                    "goodsId":579395,
+                    "goodsImg":"//lpms-jf-p1-stg.wanlitong.com/goodsimg/cms/file/2016_8_8/H5_1470627301893_160_160.png",
+                    "payType":"02",
+                    "salePrice":235.37,/* 任意积分+现金价 */
+                    "purePoints":1000,/* 纯积分价 */
+                    "stableCashPrice":111,/* payType=01 */
+                    "stablePointsPrice":11,
+                    "stock":10000,
+                    "limitNum":9999750,
+                    "status":"03",/* 03发布04下架 */
+                    "remark":"商品有效性描述",//库存不足;该商品暂不在本渠道出售;
+                    "remarkCode":"商品有效性编码",//即remark的编码前台之后需要根据不同情况，做不同处理时可以取code
+                    "cnt":1,/*加入购物车的数量*/
+                    "specification": "1,2,3",//产品规格(多个规格用英文逗号分隔)
+                    
+                    "cartId":745,
+                    "repositoryId":12503,
+                    
+                    "cartItemId":55017, 
+
+                    /* 活动相关 */
+                    "isActivity": "true/false",//是否活动商品（true：是；false：否）
+		            "grouponTagUrl": "",//活动打标图片(isActivity为true时返回)
+		            "grouponText": "",//活动惊爆价文案(isActivity为true时返回)
+		            "grouponId": "",//活动ID(isActivity为true时返回)
+                    "acPayType": "",//抢购支付类型(isActivity为true时返回)
+                    "acMarketPrice": "",//抢购市场价(isActivity为true时返回)
+                    "acSalePrice": "",//抢购销售价(isActivity为true时返回)
+                    "acPurePointsPrice": "",//抢购纯积分价(isActivity为true时返回)
+                    "acStablePointsPrice": "",//抢购固定积分价(isActivity为true时返回)
+                    "acStableCashPrice": "",//抢购固定现金价(isActivity为true时返回)
+                    "businessType": "",//抢购活动类型(isActivity为true时返回，00:抢购活动;01:活动商家报名;02:专区分销商活动;03:OMP)
+                    "acStartDate":"",//活动开始时间(isActivity为true时返回，时间戳)
+		            "marketPrice": "",//市场价
+			        "goodsProperty": "",//商品类型 001001：实物；002001：数字商品（万里通发码）；002002：数字商品（第三方发码）；002003：万里通发码-券码非导入 除实物外，后面三种均为数字商品
+                    "orderLimit": "",//订单限购数量(isActivity为true时返回)
+                    "memberLimit": "",//用户限购数量 (isActivity为true时返回)
+                    "acGoodsName": "",//活动商品名称 (isActivity为true时返回)
+
+
+
+                    "rebateMultiple":"返分倍数",/* 商品商家返分倍数 */
+                    "platformRebateMultiple":"",//平台返分倍数
+                    "isMultiFlag":"0",/*是否多维规格标识*/
+                    "merBusinessType":"1200000"
+                },
+                {
+                    "purePoints":1000,
+                    "sellerMerId":"600000000015",
+                    "goodsId":57941511,
+                    "cnt":1,
+                    "status":"03",
+                    "limitNum":999975,
+                    "cartId":745,
+                    "repositoryId":12503,
+                    "stock":10000,
+                    "cartItemId":55017,
+                    "goodsImg":"//lpms-jf-p1-stg.wanlitong.com/goodsimg/cms/file/2016_8_8/H5_1470627301893_160_160.png",
+                    "specification":"2",
+                    "payType":"02",
+                    "rebateMultiple":0,
+                    "salePrice":500,
+                    "goodsProperty":"001001",
+                    "isMultiFlag":"0",
+                    "goodsName":"海淘商品一号$500",
+                    "merBusinessType":"1200000"
+                }
+            ]
+            },
+            {
+            "sellerMerId":"P1000492",
+            "isMergePayGroup":"Gnull",
+            "count":1,
+            "isExistCoupon":"true",
+            "sellerName":"商户一号",
+            "carItemList":[
+                    {
+                    "purePoints":120,
+                    "sellerMerId":"P1000492",
+                    "goodsId":11123,
+                    "cnt":2,
+                    "status":"03",
+                    "stableCashPrice":111,
+                    "limitNum":9999999,
+                    "cartId":745,
+                    "sellerName":"万里通",
+                    "repositoryId":12503,
+                    "stock":10000,
+                    "cartItemId":53967,
+                    "goodsImg":"//lpms-jf-p1-stg.wanlitong.com/goodsimg//cms//file//AK_1428391516297_160_160.jpg",
+                    "stablePointsPrice":11,
+                    "specification":"16G土豪hhhh",
+                    "payType":"01",
+                    "rebateMultiple":3,
+                    "salePrice":1230,
+                    "goodsProperty":"001001",
+                    "isMultiFlag":"0",
+                    "goodsName":"普通实物商品$1230",
+                    "merBusinessType":"00"
+                    }
+            ]
+            }
+        ],
+        "invalidItems":[]
+    },
+    "statusCode":"0000"
+  }
+}

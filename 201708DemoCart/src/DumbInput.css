@@ -1,0 +1,31 @@
+.outer{
+    height: 40px;width: 200px;
+     position: relative; 
+}
+.placeHolder{
+    z-index:3;
+    position: absolute;
+    top:2px;
+    left: 15px;
+}
+.dumbInput_container{
+    padding:5px 0 2px 5px;
+    height: 40px;width: 200px;
+     position: relative; 
+}
+
+.dumbInput_wrapper1{
+    font-size: 12px;
+    position: relative;
+}
+input{
+    position: relative;
+    opacity:0.5;
+    z-index:7;
+    height:15px;
+    background-color: beige;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+        

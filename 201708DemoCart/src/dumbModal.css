@@ -1,0 +1,23 @@
+
+.Container{
+    height:80px;
+    display:flex;
+    
+}
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+}
+.box{
+    display: flex;
+}
+.row{
+   /* height: auto;  */
+}
